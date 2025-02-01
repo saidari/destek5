@@ -29,6 +29,7 @@ ros2 run turtlebot3_go_to_point go_to_point
 Robot, go_to_point.py içinde belirlenen target_x ve target_y konumuna doğru ilerleyecek ve yeterince yaklaştığında duracaktır.
 
 TurtleBot3 modelini (burger, waffle vb.) ayarlamak için:
+
 echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 source ~/.bashrc
 
